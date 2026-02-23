@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.student-form-container {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: #f0f4f8;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.student-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.student-form input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.student-form input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+}
+
+.student-form button {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.student-form button:hover {
+  background-color: #0056d6;
+}
+
+.student-data p {
+  width: 100%;
+  padding: 8px 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.student-data button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background: #6c757d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.student-data button:hover {
+  background: #5a6268;
+}
